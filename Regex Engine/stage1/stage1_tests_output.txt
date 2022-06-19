@@ -1,0 +1,70 @@
+"/Users/guty/PycharmProjects/Regex Engine 707408/.idea/VirtualEnvironment/bin/python" "/Users/guty/PycharmProjects/Regex Engine 707408/Regex Engine/stage1/tests.py" "/Users/guty/PycharmProjects/Regex Engine 707408/Regex Engine/stage1/main.go"
+
+Start test 1
+Test #1 started at 10:03:13
+Testing started at 10:03 ...
+> a|a
+true
+Test #1 ended at 10:03:15
+Time spent: 2.02s
+
+Start test 2
+Test #2 started at 10:03:15
+> a|b
+false
+Test #2 ended at 10:03:17
+Time spent: 1.88s
+
+Start test 3
+Test #3 started at 10:03:17
+> 7|7
+true
+Test #3 ended at 10:03:19
+Time spent: 1.90s
+
+Start test 4
+Test #4 started at 10:03:19
+> 6|7
+false
+Test #4 ended at 10:03:21
+Time spent: 1.87s
+
+Start test 5
+Test #5 started at 10:03:21
+> .|a
+true
+Test #5 ended at 10:03:23
+Time spent: 1.89s
+
+Start test 6
+Test #6 started at 10:03:23
+> a|.
+false
+Test #6 ended at 10:03:25
+Time spent: 1.86s
+
+Start test 7
+Test #7 started at 10:03:25
+> |a
+true
+Test #7 ended at 10:03:26
+Time spent: 1.88s
+
+Start test 8
+Test #8 started at 10:03:26
+> |
+true
+Test #8 ended at 10:03:28
+Time spent: 1.87s
+
+Start test 9
+Test #9 started at 10:03:28
+> a|
+false
+
+#educational_plugin test OK
+Total time taken for tests: 17.05 seconds
+
+Process finished with exit code 0
+
+#### Web version time taken approx: 21.08 seconds

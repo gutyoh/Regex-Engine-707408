@@ -1,0 +1,238 @@
+"/Users/guty/PycharmProjects/Regex Engine 707408/.idea/VirtualEnvironment/bin/python" "/Users/guty/PycharmProjects/Regex Engine 707408/Regex Engine/stage4/tests.py" "/Users/guty/PycharmProjects/Regex Engine 707408/Regex Engine/stage4/main.go"
+
+Start test 1
+Test #1 started at 10:06:11
+Testing started at 10:06 ...
+> a|a
+true
+Test #1 ended at 10:06:13
+Time spent: 2.05s
+
+Start test 2
+Test #2 started at 10:06:13
+> a|b
+false
+Test #2 ended at 10:06:15
+Time spent: 1.85s
+
+Start test 3
+Test #3 started at 10:06:15
+> 7|7
+true
+Test #3 ended at 10:06:16
+Time spent: 1.86s
+
+Start test 4
+Test #4 started at 10:06:16
+> 6|7
+false
+Test #4 ended at 10:06:18
+Time spent: 1.89s
+
+Start test 5
+Test #5 started at 10:06:18
+> .|a
+true
+Test #5 ended at 10:06:20
+Time spent: 1.89s
+
+Start test 6
+Test #6 started at 10:06:20
+> a|.
+false
+Test #6 ended at 10:06:22
+Time spent: 1.89s
+
+Start test 7
+Test #7 started at 10:06:22
+> |a
+true
+Test #7 ended at 10:06:24
+Time spent: 1.89s
+
+Start test 8
+Test #8 started at 10:06:24
+> |
+true
+Test #8 ended at 10:06:26
+Time spent: 1.88s
+
+Start test 9
+Test #9 started at 10:06:26
+> a|
+false
+Test #9 ended at 10:06:28
+Time spent: 1.84s
+
+Start test 10
+Test #10 started at 10:06:28
+> apple|apple
+true
+Test #10 ended at 10:06:30
+Time spent: 1.90s
+
+Start test 11
+Test #11 started at 10:06:30
+> .pple|apple
+true
+Test #11 ended at 10:06:31
+Time spent: 1.87s
+
+Start test 12
+Test #12 started at 10:06:31
+> appl.|apple
+true
+Test #12 ended at 10:06:33
+Time spent: 1.87s
+
+Start test 13
+Test #13 started at 10:06:33
+> .....|apple
+true
+Test #13 ended at 10:06:35
+Time spent: 1.89s
+
+Start test 14
+Test #14 started at 10:06:35
+> |apple
+true
+Test #14 ended at 10:06:37
+Time spent: 1.89s
+
+Start test 15
+Test #15 started at 10:06:37
+> apple|
+false
+Test #15 ended at 10:06:39
+Time spent: 1.86s
+
+Start test 16
+Test #16 started at 10:06:39
+> apple|peach
+false
+Test #16 ended at 10:06:41
+Time spent: 1.87s
+
+Start test 17
+Test #17 started at 10:06:41
+> le|apple
+true
+Test #17 ended at 10:06:43
+Time spent: 1.87s
+
+Start test 18
+Test #18 started at 10:06:43
+> app|apple
+true
+Test #18 ended at 10:06:45
+Time spent: 1.86s
+
+Start test 19
+Test #19 started at 10:06:45
+> a|apple
+true
+Test #19 ended at 10:06:46
+Time spent: 1.87s
+
+Start test 20
+Test #20 started at 10:06:46
+> .|apple
+true
+Test #20 ended at 10:06:48
+Time spent: 1.87s
+
+Start test 21
+Test #21 started at 10:06:48
+> apwle|apple
+false
+Test #21 ended at 10:06:50
+Time spent: 1.86s
+
+Start test 22
+Test #22 started at 10:06:50
+> peach|apple
+false
+Test #22 ended at 10:06:52
+Time spent: 1.86s
+
+Start test 23
+Test #23 started at 10:06:52
+> ^app|apple
+true
+Test #23 ended at 10:06:54
+Time spent: 1.86s
+
+Start test 24
+Test #24 started at 10:06:54
+> le$|apple
+true
+Test #24 ended at 10:06:56
+Time spent: 1.86s
+
+Start test 25
+Test #25 started at 10:06:56
+> ^a|apple
+true
+Test #25 ended at 10:06:58
+Time spent: 1.88s
+
+Start test 26
+Test #26 started at 10:06:58
+> .$|apple
+true
+Test #26 ended at 10:06:59
+Time spent: 1.85s
+
+Start test 27
+Test #27 started at 10:06:59
+> apple$|tasty apple
+true
+Test #27 ended at 10:07:01
+Time spent: 1.88s
+
+Start test 28
+Test #28 started at 10:07:01
+> ^apple|apple pie
+true
+Test #28 ended at 10:07:03
+Time spent: 1.89s
+
+Start test 29
+Test #29 started at 10:07:03
+> ^apple$|apple
+true
+Test #29 ended at 10:07:05
+Time spent: 1.87s
+
+Start test 30
+Test #30 started at 10:07:05
+> ^apple$|tasty apple
+false
+Test #30 ended at 10:07:07
+Time spent: 1.88s
+
+Start test 31
+Test #31 started at 10:07:07
+> ^apple$|apple pie
+false
+Test #31 ended at 10:07:09
+Time spent: 1.85s
+
+Start test 32
+Test #32 started at 10:07:09
+> app$|apple
+false
+Test #32 ended at 10:07:11
+Time spent: 1.87s
+
+Start test 33
+Test #33 started at 10:07:11
+> ^le|apple
+false
+
+#educational_plugin test OK
+Total time taken for tests: 61.94 seconds
+
+Process finished with exit code 0
+
+#### Web version time taken approx: 57.23 seconds
