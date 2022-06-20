@@ -20,7 +20,7 @@ func main() {
 	var line string
 	fmt.Scanln(&line)
 
-	// if line doesn't contain the "|" symbol, print "False" and exit the program:
+	// if line doesn't contain the "|" symbol, print false and exit the program:
 	if !strings.Contains(line, "|") {
 		fmt.Println(false)
 		return

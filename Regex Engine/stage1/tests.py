@@ -6,15 +6,15 @@ import time
 
 class RegexTest(StageTest):
     m_cases = [
-        ("a", "a", "true", "Two identical patterns should return True!"),
-        ("a", "b", "false", "Two different patterns should not return True!"),
-        ("7", "7", "true", "Two identical patterns should return True!"),
-        ("6", "7", "false", "Two different patterns should not return True!"),
+        ("a", "a", "true", "Two identical patterns should return true!"),
+        ("a", "b", "false", "Two different patterns should not return true!"),
+        ("7", "7", "true", "Two identical patterns should return true!"),
+        ("6", "7", "false", "Two different patterns should not return true!"),
         (".", "a", "true", "Don't forget that '.' is a wild-card that matches any single character."),
         ("a", ".", "false", "A period in the input string is still a literal!"),
-        ("", "a", "true", "An empty regex always returns True!"),
-        ("", "", "true", "An empty regex always returns True!"),
-        ("a", "", "false", "A non-empty regex and an empty input string always returns False!")
+        ("", "a", "true", "An empty regex always returns true!"),
+        ("", "", "true", "An empty regex always returns true!"),
+        ("a", "", "false", "A non-empty regex and an empty input string always returns false!")
     ]
 
     def generate(self):
