@@ -1,8 +1,8 @@
 type: framework
 content:
-- stage1
-- stage2
-- stage3
-- stage4
-- stage5
-- stage6
+- Single character strings
+- Matching two equal length strings
+- Working with strings of different length
+- Implementing the operators ^ and $
+- Controlling repetition
+- Escaping
