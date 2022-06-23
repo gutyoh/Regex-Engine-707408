@@ -2,8 +2,6 @@
 from hstest.stage_test import StageTest
 from hstest.test_case import TestCase, SimpleTestCase
 
-import time
-
 
 class RegexTest(StageTest):
     m_cases = [
@@ -68,7 +66,4 @@ class RegexTest(StageTest):
 
 
 if __name__ == '__main__':
-    start = time.time()
     RegexTest().run_tests()
-    end = time.time()
-    print(f'Total time taken for tests: {(end - start):.2f} seconds')
